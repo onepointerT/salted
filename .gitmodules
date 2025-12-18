@@ -1,0 +1,24 @@
+[submodule "lib/pantheon"]
+    path = lib/pantheon
+    url = https://github.com/onepointerT/pantheon.git
+    tag = 0a67af4947b616a3df0b6b0e0bf23373e46ab321
+[submodule "lib/elements"]
+    path = lib/elements
+    url = https://github.com/onepointerT/elements.git
+    tag = 663dcdb82dffa9e70cf6643b50ed56a39c8015ed
+[submodule "lib/lunasvg"]
+    path = lib/lunasvg
+    url = https://github.com/onepointerT/lunasvg.git
+    tag = efcc2a130dc079fe57ce21edcb557c88830f8228
+[submodule "lib/jademl"]
+    path = lib/jademl
+    url = https://github.com/onepointerT/jademl.git
+    tag = cefe51c2164d183691ad85e9133b4c6fcd2cd6b4
+[submodule "lib/nuklearcpp"]
+    path = lib/nuklearcpp
+    url = https://github.com/onepointerT/nuklearcpp.git
+    branch = dev
+[submodule "lib/sqlitecpp"]
+    path = lib/sqlitecpp
+    url = https://github.com/onepointerT/sqlitecpp.git
+    branch = dev
