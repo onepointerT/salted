@@ -23,14 +23,13 @@ if( _MSC_BUILD )
 else()
 	set(ELEMENTS_HOST_UI_LIBRARY "gtk")
 endif()
-add_subdirectory( lib/elements )
+#add_subdirectory( lib/elements )
 include_directories( lib/elements/lib/include )
 # Build the lunasvg/css painting extension
-add_subdirectory( lib/lunasvg )
+#add_subdirectory( lib/lunasvg )
 include_directories( lib/lunasvg/include lib/lunasvg/source )
 # Build the openGL graphics backend pantheon
-add_subdirectory( lib/nuklearcpp/lib/pantheon )
-include_directories( lib/nuklearcpp/lib/pantheon/lib lib/nuklearcpp/lib/pantheon/src )
+include_directories( lib/nuklearcpp/lib/gui/pantheon/lib lib/nuklearcpp/lib/gui/pantheon/src )
 # Build the UI backend nuklearcpp
 add_subdirectory( lib/nuklearcpp )
 include_directories( lib/nuklearcpp/include )
